@@ -57,11 +57,11 @@ a:hover {
 /* Columns */
 #columns {clear: both;}
 #column-one {float: left; width: 181px;}
-#column-two {float: right;width: 161px;margin-right:20px;margin-top:60px;}
+#column-two {float: right;width: 181px;margin-right:20px;margin-top:60px;}
 #column-content { margin: 0 161px 0 181px;}
 #column-content .visualPadding {padding: 0 30px;}
 #viewlet-above-content-title {float:right;}
-#content { clear: none;}
+#content { clear: none; margin-right: 20px;}
 body.noRightColumn #column-content {margin-right: 0;}
 
 #column-one {display:none;visibility:hidden}

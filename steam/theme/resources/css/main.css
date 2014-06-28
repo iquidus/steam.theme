@@ -24,11 +24,15 @@
 
 #header {}
 body {
-    background-color:#DCDCDC;
+    background-color:#fff;
+    /*position: relative;
+    height: 100%;*/
 }
 #wrapper {
     background-color:#fff;
+    /*padding-bottom: 150px;*/
 }
+
 #menusubbar {
     background-color: #EFEFEF;
     border-bottom: 1px solid #DCDCDC;
@@ -55,10 +59,10 @@ a:hover {
     color:#2b7bc1;
 }
 /* Columns */
-#columns {clear: both;}
+#columns {clear: both; }
 #column-one {float: left; width: 181px;}
 #column-two {float: right;width: 181px;margin-right:20px;margin-top:60px;}
-#column-content { margin: 0 161px 0 181px;}
+#column-content { margin: 0 161px 100px 181px;}
 #column-content .visualPadding {padding: 0 30px;}
 #viewlet-above-content-title {float:right;}
 #content { clear: none; margin-right: 20px;}
@@ -202,15 +206,20 @@ span.documentFirstHeading {
 #header #edit-bar ul li a {
     color:#444;
 }
-#footer {    background-color: #DCDCDC;
+
+#footer{    /*background-color: #DCDCDC;*/
     border-top: 1px solid #CDCDCD;
     margin-top: 40px;
- }
+    /*position: absolute;
+    bottom: 0px;
+    width: 100%;*/
+}
+
 #footer div.cell {
     float:none;
     margin-left:0px;
     width:100%;
-    left:0;
+    left:0px;
 }
 #portal-footer {
     margin:0px;
